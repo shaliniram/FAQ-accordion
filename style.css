@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-color: #dfc5fe;
+    background-size: cover;
+    font-size: 16px;;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    max-width: 600px; 
+    min-width: 300px;
+    width: 30%;
+    /* height: 50vh; */
+    background-color: white;
+    border-radius: 5%;
+    padding: 35px;
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.heading{
+ font-weight: 700;
+ font-size: 48px; 
+ 
+}
+
+.quest{
+    font-weight: 600;
+ font-size: 16px; 
+ padding:20px;
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+ color: hsl(292, 42%, 14%)
+}
+
+.hide{
+    display: none;
+}
+
+p{
+    padding: 10px;
+    text-align: left;
+    font-weight: 400; 
+    font-size: 13px; 
+    color: hsl(292, 16%, 49%)
