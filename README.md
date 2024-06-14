@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/faq.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/shaliniram/FAQ-accordion)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/shaliniram/FAQ-accordion)
+- Live Site URL: [live site](https://shaliniram.github.io/FAQ-accordion)
 
 ## My process
 
