@@ -7,7 +7,7 @@ body{
     background-image: url("assets/images/background-pattern-desktop.svg");
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-color: #dfc5fe;
+    background-color:#f9eeff ;
     background-size: cover;
     font-size: 16px;;
     margin: 0;
@@ -15,6 +15,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: auto 50%; /* Make the height of the background image 50% of the body's height */
+    background-position: center top; /* Position the image at the top center */
 }
 
 
@@ -37,10 +39,22 @@ body{
  
 }
 
+
+.heading img{
+    padding: 0px 20px;
+    size: 48px;
+}
+
+
+.qna{
+ padding:20px;
+}
+
+
 .quest{
     font-weight: 600;
  font-size: 16px; 
- padding:20px;
+ /* padding:20px; */
  display: flex;
  flex-direction: row;
  justify-content:space-between;
@@ -52,8 +66,17 @@ body{
 }
 
 p{
-    padding: 10px;
+    padding: 10px 0px;
     text-align: left;
     font-weight: 400; 
     font-size: 13px; 
-    color: hsl(292, 16%, 49%)
+    color: hsl(292, 16%, 49%)}
+
+hr{
+    /* color: hsl(292, 16%, 49%);
+    border:0.01px solid; */
+    border: 0;
+    height: 0.5px;
+    background: hsl(292, 16%, 49%);
+ 
+}
